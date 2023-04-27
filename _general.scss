@@ -1,0 +1,35 @@
+$bg-grad1: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+$bg-circle: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+$light-red: hsl(0, 69%, 97%);
+$red: hsl(0, 100%, 67%);
+$light-orange: hsl(42, 65%, 91%);
+$orange: hsl(39, 100%, 56%);
+$light-green: hsl(163, 47%, 97%);
+$green: hsl(166, 100%, 37%);
+$light-blue: hsl(232, 85%, 95%);
+$blue: hsl(234, 85%, 45%);
+$gray: hsl(224, 30%, 27%);
+$white: hsl(0, 0%, 100%);
+$pale-blue: hsl(221, 100%, 96%);
+$lavender: hsl(241, 100%, 89%);
+$family: Arial, Helvetica, sans-serif;
+$weight1: 500;
+$weight2: 700;
+$weight3: 800;
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: $family;
+
+    @media screen and (min-width: 767px) {
+        min-height: 100vh;
+        display: grid;
+        place-content: center;
+    }
+}

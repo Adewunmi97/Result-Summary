@@ -1,0 +1,171 @@
+@import "./general";
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+
+    @media screen and (min-width: 767px) {
+        display: flex;
+        flex-direction: row;
+        max-width: 40rem;
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 0 4px 20px $lavender;
+    }
+
+    .result {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 40px;
+        border-radius: 0 0 20px 20px;
+        background: $bg-grad1;
+
+        @media screen and (min-width: 767px) {
+            width: 100%;
+            border-radius: 20px 20px;
+        }
+
+        h4 {
+            color: $lavender;
+        }
+
+        .score-display {
+            width: 120px;
+            height: 120px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            border-radius: 50%;
+            background: $bg-circle;
+            margin: 25px 0;
+
+            h1 {
+                color: $white;
+                font-weight: $weight3;
+                font-size: 45px;
+            }
+
+            .over-100 {
+                color: $lavender;
+                font-size: small;
+                padding-top: 8px;
+            }
+        }
+
+        h3 {
+            color: $white;
+        }
+
+        p {
+            text-align: center;
+            padding-top: 10px;
+            color: $lavender;
+        }
+    }
+
+    .summary {
+        padding: 20px 40px;
+
+        @media screen and (min-width: 767px) {
+            width: 100%;
+            border-radius: 0 20px 20px 0;
+        }
+
+        h3 {
+            text-align: start;
+            color: $gray;
+            font-weight: $weight2;
+        }
+
+        ul {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 1em;
+            padding: 20px 0;
+
+            li {
+                list-style: none;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                gap: 1em;
+                max-width: 100%;
+                padding: 10px 5px;
+                border-radius: 8px;
+
+                &.li-1 {
+                    background: $light-red;
+                    border: 1px solid $light-red;
+                }
+
+                &.li-2 {
+                    background: $light-orange;
+                    border: 1px solid $light-orange;
+                }
+
+                &.li-3 {
+                    background: $light-green;
+                    border: 1px solid $light-green;
+                }
+
+                &.li-4 {
+                    background: $light-blue;
+                    border: 1px solid $light-blue;
+                }
+
+                .flex-list {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    width: 80%;
+
+                    .title1 {
+                        color: $red;
+                    }
+
+                    .title2 {
+                        color: $orange;
+                    }
+
+                    .title3 {
+                        color: $green;
+                    }
+
+                    .title4 {
+                        color: $blue;
+                    }
+
+                    .number {
+                        color: $gray;
+                        font-weight: $weight2;
+                    }
+                }
+
+                .faint {
+                    color: $lavender;
+                }
+            }
+        }
+
+        button {
+            width: 100%;
+            background: $gray;
+            padding-inline: 5px;
+            padding-block: 10px;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            color: $white;
+            font-weight: $weight2;
+
+            &:hover {
+                background: $bg-grad1;
+            }
+        }
+    }
+}
