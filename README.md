@@ -3,14 +3,14 @@
 
 * Screenshots
 
-
+![Screenshot (12)](https://user-images.githubusercontent.com/60876346/236735922-2dae7999-4970-4401-8a8b-ab21ff82ad43.png)
+![Screenshot (14)](https://user-images.githubusercontent.com/60876346/236735951-69c0bcf5-d43e-4e7f-8616-500badbee192.png)
 
 
 ## Built With
 
 * HTML
 * SCSS
-* jquery
 
 
 ## Live Demo
@@ -20,7 +20,7 @@
 
 ## Project Description
 
-* The Whatsapp chat page is a clone of the whatsapp chat page which is targetted on the functionality of searching names by any letter inputrd in the search bar.
+* Result Summary project is a design which is targetted on the responsiveness of the page.
 
 ## Getting Started
 
