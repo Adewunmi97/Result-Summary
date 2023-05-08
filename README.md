@@ -15,7 +15,7 @@
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://raw.githack.com/Adewunmi97/Result-Summary/main/index.html)
 
 
 ## Project Description
